@@ -1,12 +1,10 @@
-import{ Text, TextInput, View, Image,Button, Pressable, Touchable, TouchableOpacity, Alert} from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Card } from './components/Card';
-import { Login } from './screens/Login';
+import { Home} from './Home';
 
 export default function App() {
   return (
     <SafeAreaView>
-      <Login/>
+      <Home/>
     </SafeAreaView>
   );
 }

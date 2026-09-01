@@ -1,6 +1,6 @@
-import { Button, StyleSheet } from "react-native";
+import { StyleSheet } from "react-native";
 
-export const style = StyleSheet.create({
+export const styles = StyleSheet.create({
 
     containerHome:{
         gap:110,
@@ -10,7 +10,6 @@ export const style = StyleSheet.create({
     contentHome:{
         gap:40,
 
-
     },
     containerForm:{
         gap:40
@@ -19,18 +18,27 @@ export const style = StyleSheet.create({
         gap:25,
 
     },
+    txtNaoTemConta:{
+        textAlign:'center',
+    },
+    txtCriarConta:{
+        color:"#375EE7",
+        textDecorationLine:'underline',
+    },
     input:{
         borderWidth:1,
         borderColor:'#2d3133',
         borderRadius:7
     },
-    button:{
+    buttonLogin:{
             backgroundColor:"#375EE7",
-            borderRadius:7
+            borderRadius:7,
+            paddingVertical:15,
     },
     TxtLogin:{
         color:"#fff",
-        fontWeight:"bold"
+        fontWeight:"bold",
+        textAlign:'center',
     },
 
     TxtTitulo:{
