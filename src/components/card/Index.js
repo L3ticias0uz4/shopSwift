@@ -1,10 +1,11 @@
-import { View, Text } from 'react-native';
-import { styles } from './styles';
+import { Text, View } from "react-native"
+import { styles } from "./style"
 
 export const Card = () => {
-  return (
-    <View>  
-        <Text style={styles.TextColor}>ESSE É O NOSSO CARD</Text>
-    </View>
-  );
+    return(
+        <View>
+            <Text style={styles.textColor}>Esse é o nosso card</Text>
+        </View>
+    )
 }
+

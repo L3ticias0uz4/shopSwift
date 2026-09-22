@@ -6,7 +6,8 @@ export const BoxCategory = styled.View`
     border-radius: 7px;
     flex-direction: row;
     align-items: center;
-    gap: 10px
+    gap: 10px;
+
 `
 
 export const TextCategory = styled.Text`
